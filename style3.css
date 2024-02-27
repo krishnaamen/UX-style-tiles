@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:"green";
+    color: #333;
+    line-height: 1.6;
+}
+
+
+h1, h2, h3, h4 {
+    color: #26AEEB;
+    margin-bottom: 0.5em;
+}
+.btnSec{
+    background-color: #AF9100;
+}
+
+
+button {
+    background-color: #4169E1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #BEDC60;
+    color:#4169E1;
+}
+
+.meta, .copy {
+    color: #666;
+}
+
+
+.colors{
+    display:flex;
+    flex-direction:row;
+
+}
+.color-sample1{
+    display:flex;
+    width:100px;
+    height:100px;
+    background:#BEDC60;
+    border: 1px solid #AF9107;
+    border-radius: 10px;
+}
+
+.color-sample2{
+    display:flex;
+    width:100px;
+    height:100px;
+    background:#CACAA5;
+    border: 1px solid #AF9107;
+    border-radius: 10px;
+}
+.color-sample3{
+    display:flex;
+    width:100px;
+    height:100px;
+    background:#48DB77;
+    border: 1px solid #AF9107;
+    border-radius: 10px;
+}
+.color-sample4{
+    display:flex;
+    width:100px;
+    height:100px;
+    background:#B8DF7D;
+    border: 1px solid #AF9107;
+    border-radius: 10px;
+}
+.color-sample5{
+    display:flex;
+    width:100px;
+    height:100px;
+    background:#ffffff;
+    border: 1px solid #AF9107;
+    border-radius: 10px;
+}
+.color-sample6{
+    display:flex;
+    width:100px;
+    height:100px;
+    background:#AF9100;
+    border: 1px solid #AF9107;
+    border-radius: 10px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #AF9107;
+    border-radius: 10px;
+}
